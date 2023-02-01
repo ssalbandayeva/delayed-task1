@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top_side {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid black;
+  padding: 20px;  
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.manu_logo {
+  display: flex;
+  gap: 10px;
+  letter-spacing: 1px;
+}
+
+.icon {
+  width: 45px;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 70%;
+  background-color: rgb(36, 46, 76);
+  color: #ebebf3;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.logo {
+  color: rgb(36, 46, 76);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  letter-spacing: 2px;
+  color: #7d7a9e;
+}
+
+.bottom_side {
+  height: 1500px;
+  position: absolute;
+}
+
+.aside_wall {
+  width: 900px;
+  height: 700px;
+  border: 1px solid black;
+  background-color: #ebebf3;
+  position: absolute;  
+}
+
+.pink {
+  background-color: #f161a3;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+
+.orange {
+  background-color: #fa7c64;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  position: absolute;
+  right: 60px;
+  bottom: 70px;
+}
+
+.article {
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  border-radius: 5%;
+  border: 1px solid none;
+  padding: 30px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  
+}
+
+.article_item{
+  margin: 15px;  
+}
+
+.button {
+  width: 200px;
+  height: 35px;
+  background-color: #e2593e;
+  border-radius: 5px;  
+  color: white;
+  border: none;
+  position: absolute;
+  bottom: 35px;
+}
